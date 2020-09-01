@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'righteousregular';
+    src: url('fonts/Righteous/righteous-regular-webfont.woff2') format('woff2'),
+         url('fonts/Righteous/righteous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+div.header-logo .main {
+    padding: 40px;
+}
+
+
+div.how-we-do-row {
+    padding: 20px;
+}
+
+div.how-we-do {
+    padding: 40px;
+    font-family: 'righteousregular';
+}
+
+div.how-we-do-bg {
+    background-image: url('img/how-we-do-bg.png');
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 85px;
+}
+
+div.how-we-do .main {
+    font-size: 50pt;
+    text-align: right;
+}
+div.how-we-do .content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: justify;
+}
+
+div.we-provide {
+    font-family: 'righteousregular';
+    /*background-color: rgb(223, 253, 230);*/
+}
+
+div.we-provide-bg {
+    background-image: url('img/we-provide-bg.png');
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+    margin: 20px;
+}
+
+div.we-provide .main {
+    font-size: 50pt;
+    text-align: left;
+}
+div.we-provide .content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: left;
+    padding-top: 20px;
+}
+div.we-provide .content h5{
+    text-align: center;
+    height: 80px;
+    padding-top: 10px;
+    border-bottom: 2px solid rgb(66, 78, 69);
+}
+
+div.our-team {
+    padding: 40px;
+    font-family: 'righteousregular';
+    /*background-color: rgb(204, 243, 248);*/
+}
+
+div.our-team-bg {
+    background-image: url('img/team-bg.png');
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+    margin: 20px;
+}
+
+div.our-team .main {
+    font-size: 50pt;
+    text-align: right;
+}
+div.our-team .content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: left;
+    padding-top: 20px;
+}
+div.our-team .content h5{
+    text-align: center;
+    height: 80px;
+    padding-top: 10px;
+    border-bottom: 2px solid rgb(6, 58, 88);
+}
+
+
+div.get-in-touch {
+    font-family: 'righteousregular';
+    background-color: #EEE;
+}
+
+
+div.get-in-touch .main {
+    font-size: 50pt;
+    text-align: left;
+}
+div.get-in-touch .content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+    padding-top: 20px;
+    width: 80%;
+    margin: 0px auto;
+}
+div.get-in-touch-bg {
+    background-image: url('img/contact-bg.png');
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.story-tellers {
+    font-family: 'righteousregular';
+    /*background-color: rgb(223, 253, 230);*/
+}
+
+div.story-tellers-bg {
+    background-image: url('img/who-we-are-bg.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+}
+
+div.story-tellers .main {
+    font-size: 50pt;
+    text-align: left;
+}
+div.story-tellers .content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: right;
+    padding-top: 20px;
+}
+div.story-tellers .content h5{
+    text-align: center;
+    height: 80px;
+    padding-top: 10px;
+    border-bottom: 2px solid rgb(66, 78, 69);
+}

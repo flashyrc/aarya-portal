@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarya Films</title>
+    <link href="/third_party/fullpage/fullpage.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="sticky-top">
+        <a href="#firstPage">First</a>
+        &nbsp;|&nbsp;
+        <a href="#secondPage">Second</a>
+        &nbsp;|&nbsp;
+        <a href="#thirdPage">Third</a>
+        &nbsp;|&nbsp;
+        <a href="#fourthPage">Fourth</a>
+        &nbsp;|&nbsp;
+        <a href="#thirdPage/0">Slide 1</a>
+        &nbsp;|&nbsp;
+        <a href="#thirdPage/1">Slide 2</a>
+        &nbsp;|&nbsp;
+        <a href="#thirdPage/2">Slide 3</a>
+        &nbsp;|&nbsp;
+        <a href="#thirdPage/3">Slide 4</a>
+    </div>
+    <div id="fullpage">
+        <div class="section fp-auto-height" style="background-color: #00f7ff; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
+            <h1>Welcome to Arya Films</h1>
+            <div style="height:200px">
+                &nbsp;
+            </div>
+        </div>
+        <div class="section" style="background-color: #e944e1; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
+            <h1>Section 2</h1>
+        </div>
+        <div class="section" style="background-color: #ff7300; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
+            <div class="slide">
+                <h2>Slide 1</h2>
+            </div>
+            <div class="slide">
+                <h2>Slide 2</h2>
+            </div>
+            <div class="slide">
+                <h2>Slide 3</h2>
+            </div>
+            <div class="slide">
+                <h2>Slide 4</h2>
+            </div>
+        </div>
+        <div class="section fp-auto-height" style="background-color: #f53b54; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
+            <h1>Footer</h1>
+            <div style="height:200px">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/third_party/fullpage/fullpage.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    new fullpage('#fullpage', {
+        //options here
+        autoScrolling:true,
+        scrollHorizontally: true,
+        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700"
+   height="300"
+   viewBox="0 0 185.20832 79.375005"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="D:\Projects\aarya-portal\img\who-we-are-bg.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="who-we-are-bg.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="469.47076"
+     inkscape:cy="240"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <path
+       style="fill:#f7b519;fill-opacity:0.39226523;stroke:none;stroke-width:0.26833698"
+       d="M -0.04059796,79.732646 79.356435,64.318652 C 178.14653,45.139724 146.5214,10.639283 200.8517,-2.3799123 l -6.87151,0.8925723 0.27543,37.746773 0.55016,40.779813 C 118.37739,77.019284 77.489391,0.49181218 -0.04059796,79.732646 Z"
+       id="path3719-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccc" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-217.62497)"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#f7b519;fill-opacity:0.59116025;stroke:none;stroke-width:0.26069632"
+       d="M -0.04059796,296.38548 77.757367,284.20351 C 174.33356,269.08115 141.50824,228.86117 193.98019,216.13763 l -5.51976,3.75428 0.26602,36.88958 0.53134,39.85374 C 115.44363,296.61575 74.837481,218.94414 -0.04059796,296.38548 Z"
+       id="path3719-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccc" />
+  </g>
+</svg>
