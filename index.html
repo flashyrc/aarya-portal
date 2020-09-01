@@ -3,68 +3,267 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aarya Films</title>
-    <link href="/third_party/fullpage/fullpage.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-    <div class="sticky-top">
-        <a href="#firstPage">First</a>
-        &nbsp;|&nbsp;
-        <a href="#secondPage">Second</a>
-        &nbsp;|&nbsp;
-        <a href="#thirdPage">Third</a>
-        &nbsp;|&nbsp;
-        <a href="#fourthPage">Fourth</a>
-        &nbsp;|&nbsp;
-        <a href="#thirdPage/0">Slide 1</a>
-        &nbsp;|&nbsp;
-        <a href="#thirdPage/1">Slide 2</a>
-        &nbsp;|&nbsp;
-        <a href="#thirdPage/2">Slide 3</a>
-        &nbsp;|&nbsp;
-        <a href="#thirdPage/3">Slide 4</a>
+    <div class="container">
+      <div id="who-we-are"> </div>
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>             
+                <div class="collapse navbar-collapse" id="topBar">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link text-warning top-link" href="#who-we-are">Who We Are</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-warning top-link" href="#how-we-do">How We Do</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-warning top-link" href="#we-provide">We Provide</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-warning top-link" href="#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-warning top-link" href="#get-in-touch">Get In Touch</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="header-logo row">
+          <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-12 offset-md-0 col-sm-12 offset-sm-0 col-12 offset-0">
+              <div class="main">
+                  <img src="img/logo_big_2.png" class="img-fluid" />
+              </div>
+          </div>
+        </div>
+        <div class="story-tellers row" id="story-tellers">
+          <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12 col-12">
+            <div>
+              <p class="main text-secondary">Who we are.</p>              
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+              <div class="story-tellers-bg">
+                <p class="content text-secondary">We are the story tellers. We love to hear an unheard story and try to convert it into the world’s best story ever told.</p>
+              </div>
+          </div>
+        </div>
+        <div class="row how-we-do-row" id="how-we-do">
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 order-xl-1 order-lg-1 order-md-1 order-sm-2 order-2">
+              <div class="how-we-do how-we-do-bg">
+                <p class="content text-secondary">
+                  We tell the story in the forms of films. We believe that the films are the most effective way to
+communicate your story to the world. Most of the times the story of an organization or individual stays
+alive in the memories of different people. We bring all them together and make a beautiful collage by
+using unique styles and techniques of filmmaking.
+                </p>
+              </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12 col-12 order-xl-2 order-lg-2 order-md-2 order-sm-1 order-1">
+            <div class="how-we-do">
+              <p class="main text-secondary">How we do.</p>
+            </div>
+          </div>
+        </div>
+        <div class="we-provide row" id="we-provide">
+          <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12 col-12">
+            <div class="we-provide-bg">
+              <p class="main text-secondary">We Provide.</p>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="content text-secondary">
+                    <div style="width:100%; height:auto;">
+                      <img src="img/org-doc.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+                    </div>
+                    <div>
+                      <h5>Organizational<br/ >Documentaries</h5>
+                      <p>Every organization has its own unique story. It’s a story of a common vision shared by many
+souls. It’s a story of becoming a grand tree from a tiny seed. It’s a story that is important to
+learn for the younger generation of that organization and also to inspire rest of the world.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="content text-secondary">
+                    <div style="width:100%; height:auto;">
+                      <img src="img/bio-films.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+                    </div>
+                    <div>
+                      <h5>Biographical<br />Films</h5>
+                      <p>Biographical films are the unique way to present the life and work of a great person whose
+                        vision and work influenced the life flow of countless individuals. These films inspire the future
+                        generation and help to impart the life values through a person’s life story.</p>
+                    </div>
+                  </div>                  
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="content text-secondary">
+                    <div style="width:100%; height:auto;">
+                      <img src="img/csr-films.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+                    </div>
+                    <div>
+                      <h5>CSR<br />Films</h5>
+                      <p>Most of the CSR Films focus on the capturing the social work and projects supported by the
+                        corporates through their CSR Initiative. But we see this whole endeavor from different
+                        perspective. We try to weave the story in such a manner that it unfolds the vision of a
+                        corporate entity for a better world.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row our-team" id="our-team">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-xl-3 order-lg-3 order-md-3 order-sm-1 order-1">
+            <div class="our-team-bg">
+              <p class="main text-secondary">Our Team.</p>
+            </div>
+          </div>          
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 order-xl-1 order-lg-1 order-md-1 order-sm-2 order-2">
+            <div class="content text-secondary">
+              <div style="width:100%; height:auto;">
+                <img src="img/harshit.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+              </div>
+              <div>
+                <h5>Harshit Jain<br />Director</h5>
+                <p>He is a communication design expert and having 15 years of experience in the Industry.In his
+                  film making career he directed many films.His film ‘Kumbh – Eternal Journey of Indian
+                  Civilization’ got worldwide recognition and appreciation.
+                  He is a fantastic storyteller and effectively uses films as a medium to tell the stories.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 order-xl-2 order-lg-2 order-md-2 order-sm-3 order-3">
+            <div class="content text-secondary">
+              <div style="width:100%; height:auto;">
+                <img src="img/vijay.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+              </div>
+              <div>
+                <h5>Vijay Yadav<br />DOP</h5>
+                <p>For him, camera is life and having camera on shoulder is one of the most cherished
+                  moments. Enjoying 22 years in industry he loves to experiment with camera angles and
+                  always comes up with unique idea to present a story cinematically.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 order-xl-4 order-lg-4 order-md-4 order-sm-4 order-4">
+            <div class="content text-secondary">
+              <div style="width:100%; height:auto;">
+                <img src="img/sanjay.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+              </div>
+              <div>
+                <h5>Sanjay Sidhaye<br />Editor & Colorist</h5>
+                <p>He has a unique ability to stitch the story in such a dramatic way that it creates a lasting
+                  impression on the audience. His Editing and CC expertise, magically converts the dull scenes
+                  into a palette of rainbow. In his 15 years long career he worked with the best of industry.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 order-xl-5 order-lg-5 order-md-5 order-sm-5 order-5">
+            <div class="content text-secondary">
+              <div style="width:100%; height:auto;">
+                <img src="img/rupak.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+              </div>
+              <div>
+                <h5>Rupak Tailor<br />Graphic Designer</h5>
+                <p>Having 25 years of experience in the industry he feels the world into colors and graphics. His
+                  extraordinary understanding about graphical treatment helps the film to capitalize its impact
+                  and overall makes it more cinematic.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 order-xl-6 order-lg-6 order-md-6 order-sm-6 order-6">
+            <div class="content text-secondary">
+              <div style="width:100%; height:auto;">
+                <img src="img/anirudh.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+              </div>
+              <div>
+                <h5>Anirudh Kirkire<br />Scriptwriter</h5>
+                <p>Stories, characters and dialogues these three words makes the personality of him. He studies
+                  the characters in such a deep manner that every character gets his space and maximum
+                  impact in the story. Investing more than 20 years in writing now he has magical command on
+                  human emotions and portrays them through his stories.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 order-xl-7 order-lg-7 order-md-7 order-sm-7 order-7">
+            <div class="content text-secondary">
+              <div style="width:100%; height:auto;">
+                <img src="img/vipul.png" style="width: 80px; margin-left:auto; margin-right:auto;height:auto;display: block;" />
+              </div>
+              <div>
+                <h5>Vipul Rege<br />Researcher</h5>
+                <p>He started his career as long form journalist but his keen interest in environment, history and
+                  civilizational studies pushed him into the world of research. He loves to explore different
+                  dimensions of a narrative and always comes up with a unique and fresh perspective. Having
+                  experience of 20 years, now he commands the better understanding of this complex world.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row get-in-touch" id="get-in-touch">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-1">
+            <div class="">
+              <p class="main text-secondary">Get In Touch.</p>
+            </div>
+          </div>
+          <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+              <div class="content get-in-touch-bg">
+                <h5>Aarya Films</h5>
+                <p class="text-secondary">
+                  9, Kanyakubj Nagar<br/>
+                  Airport Road, Indore (MP)
+                </p>
+                <p class="text-secondary">
+                  +91 9926860450, +91-9425103240
+                </p>
+                <p class="text-secondary">
+                  aaryafilms999@gmail.com
+                </p>
+              </div>
+          </div>
+        </div>
     </div>
-    <div id="fullpage">
-        <div class="section fp-auto-height" style="background-color: #00f7ff; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
-            <h1>Welcome to Arya Films</h1>
-            <div style="height:200px">
-                &nbsp;
-            </div>
-        </div>
-        <div class="section" style="background-color: #e944e1; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
-            <h1>Section 2</h1>
-        </div>
-        <div class="section" style="background-color: #ff7300; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
-            <div class="slide">
-                <h2>Slide 1</h2>
-            </div>
-            <div class="slide">
-                <h2>Slide 2</h2>
-            </div>
-            <div class="slide">
-                <h2>Slide 3</h2>
-            </div>
-            <div class="slide">
-                <h2>Slide 4</h2>
-            </div>
-        </div>
-        <div class="section fp-auto-height" style="background-color: #f53b54; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ">
-            <h1>Footer</h1>
-            <div style="height:200px">
-                &nbsp;
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="/third_party/fullpage/fullpage.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script type="text/javascript">
-    new fullpage('#fullpage', {
-        //options here
-        autoScrolling:true,
-        scrollHorizontally: true,
-        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
+    // $('.top-link').click(function() {
+    //   var to = $(this).attr('data-target');
+    //   console.log(to);
+    //   $('html, body').animate({
+    //       scrollTop: $('#' + to).offset().top
+    //   }, 2000);
+    // });
+    $("a.top-link").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
     });
     </script>
 </body>
